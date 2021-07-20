@@ -10,3 +10,7 @@ build-local:
 launch-local:
 	npm start
 
+.PHONY: pullrequest
+pullrequest:
+	gh pr create
+
